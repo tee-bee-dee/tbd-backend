@@ -1,0 +1,26 @@
+{
+  "name": "tbd-backend",
+  "version": "1.0.0",
+  "description": "CSE 112 Team tee-bee-dee",
+  "author": "John Gamboa <johnhadriansgamboa@gmail.com>",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "~4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-apidoc": "^0.2.6",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^4.3.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}

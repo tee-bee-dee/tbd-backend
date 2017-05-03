@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '6'
+before_script:
+- npm install -g gulp
+script: gulp
+deploy:
+  provider: heroku
+  api_key:
+    secure: iwGsBN31Sabvk8bnSichDi95AwwSHayC/1spzE890eMGNgrk40W/evh3/yHMjyi0gNsh0zO2k8CUEetcSbII9XyMVU2KBL4GFl8t1oNf9XSJ5Zh99c6KeQhwu2YCBVLbGMzcoCYFWYdRGchUzQW4qNgeR1nkz5wQ1WOSJfYe0e/9UW1ZHGn+j/BkApASfhpB98Qi4TvgzMI81pKdIe27yXIebsYWtxzfJmEDpufLD1UMq+X0SzEAFo/PVt0pal0jXTaOk85Fn9XY84kd205BgDY8wFmPDaP+ZYeXNqlXkaJ+Q6Msvu4pJQmxFgEJK5F4g7WbJgDaxhhzsJ+8ZoyoI9yHkp7Nqr7zVZ5oSggOvysUtQFP+6HnJjSFMa8Gj0ZPTMbyChevGlcESdSAD/bu7eOVCM8fn5rIoO27TI2l/c4c3EDavDKw0P4kfC9TbCqI1Qo6cEuWCZqJcIfQS5IKkW8FtrAMuXpNAYy78u/UOZwwXuPXbVwq7u/OibL9sIKOFUt9pxQPc0TLhqyZo9SeUVuujiHrpCqpb6N3LnracrqHNIfxWzt84SuL2FsIv3kx6vMAog11W80h2gnBtVGWCucvyzc6dYw1FFmsDfAcwdKaIue7z47rJzktGUj3n3AJ0RvML/mGUFCH+GFCwdZRcxPU4E3/5t4D8/z9oxjasW0=
+  app: tbd-backend
+  on:
+    repo: tee-bee-dee/tbd-backend
