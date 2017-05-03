@@ -17,7 +17,6 @@ app.use(bodyParser.json());
 const port = process.env.PORT || 8080;
 
 app.use('/', router);
-
 app.use('/doc', express.static(path.join(__dirname, 'doc')));
 
 app.listen(port, () => {
