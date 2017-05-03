@@ -3,7 +3,8 @@ const router = express.Router();
 
 /**
  * @api {get} / status
- * @apiName /status
+ * @apiName status
+ * @apiGroup Index
  *
  * @apiSuccess {String} status ok message
  */
