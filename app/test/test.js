@@ -8,12 +8,6 @@ describe('Array', function() {
   });
 });
 
-describe('purposely fail test', function() {
-  it('should fail', function() {
-    assert.equal(true, false);
-  })
-})
-
 describe('IsValidDate', function() {
   describe('#isValidDate()', function() {
     it('should return back true if passed a valid date', function() {
